@@ -1,0 +1,21 @@
+*	깃허브에서 내려 받는 방법
+	https://github.com/LeeHyungJune/fullstack-class 깃허브 본인 페이지의 파일을 저장한 곳에 가서 code를 누른 뒤 주소 복사
+	이클립스에서 window - show view - other - git - git repositories 클릭
+	git repositories 빈 화면에 ctrl + v 하면 새로운 창 나타남
+	거기서 user에 깃허브 아이디 password에 만들어 뒀던 토큰 키 넣기 - next 2번
+	저장 위치는 한글이 들어가지 않도록 해야 함.
+	
+*	이클립스에서 깃허브로 업로드 하는 방법
+	https://github.com/LeeHyungJune/fullstack-class 깃허브 본인 페이지의 파일을 저장한 곳에 가서 code를 누른 뒤 주소 복사
+	이클립스에서 window - show view - other - git - git repositories 클릭
+	git repositories 빈 화면에 ctrl + v 하면 새로운 창 나타남
+	거기서 user에 깃허브 아이디 password에 만들어 뒀던 토큰 키 넣기 - next 2번
+	저장 위치는 한글이 들어가지 않도록 해야 함.
+	내 폴더 전체 선택 뒤 오른쪽 클릭 - team - commit
+	내가 올릴 파일들만 올리면 됨
+	임시 파일이나 세팅 파일은 오른쪽 클릭 후 ignore 클릭
+	ignore 파일이 생기고 저것도 올리지 않으면 됨
+	올릴 파일들을 클릭하고 + 아이콘 클릭
+	commit message 에 올릴 파일들의 대한 설명 적고
+	push Head 클릭
+	finish 누르면 끝
