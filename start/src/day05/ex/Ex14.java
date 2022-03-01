@@ -13,8 +13,28 @@ package day05.ex;
 public class Ex14 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		for(int a > 0 ; a < 10 ; a++) {
+		for(int b > 0 ; b < 10 ; b++) {
+		for(int c > 0 ; c < 10 ; c++) {
+		for(int d > 0 ; d < 10 ; d++) {
+			if(a != b & a != c & a != d & b != c & b != d & c != d) {
+				if(a == d + 2) {
+					if(b > c) {
+						if()
+				} else {
+					System.out.println("조건이 맞지 않습니다.");
+				}
+				} else {
+					System.out.println("조건이 맞지 않습니다.");
+			} else {
+				System.out.println("조건이 맞지 않습니다.");
+			}
+			int num = (1000 * a) + (100 * b) + (10 * c) + d; } 
+		}
+		}
+		}
+		}
 	}
-
 }

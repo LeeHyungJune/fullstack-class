@@ -14,11 +14,26 @@ package day05.ex;
  				
  */
 
+import java.util.*;	
+
 public class Ex12 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// 입력도구
+		Scanner sc = new Scanner(System.in);
+		// 메세지 출력
+		System.out.print("입력 받은 수 : ");
+		// 추출
+		int num = sc.nextInt();
+		// 판별
+		
+		if(num / 10000 == num % 10000 % 1000 % 100 % 10) {
+			if(num % 10000 / 1000 == num % 10000 % 1000 % 100 / 10) {
+				System.out.println("입력받은 수 " + num + "은 회문수 입니다.");
+			} else {
+				System.out.println("입력받은 수 " + num + "은 회문수가 아닙니다.");
+			} 
+		} else {
+			System.out.println("입력받은 수 " + num + "은 회문수가 아닙니다.");
+		}
 	}
-
 }

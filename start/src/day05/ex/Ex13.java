@@ -16,8 +16,13 @@ package day05.ex;
 public class Ex13 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int one = (int)(Math.random() * (100 - 1 + 1) + 1);
+		int two = (int)(Math.random() * (100 - 1 + 1) + 1);
+		
+		for(int a = 1 ; a < 100 ; a++) {
+			if(one % a == 0 && two % a == 0) {
+			System.out.println(a + "는 " + one + "과 " + two + "의 공약수입니다.");
+			} 
+		}
 	}
-
 }
