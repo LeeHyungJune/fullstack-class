@@ -9,10 +9,12 @@ package day04.ex;
 	예)
 		241 은 200에 가까우므로 41을 빼야한다.
 		777 은 800에 가까우므로 23을 더해줘야 한다.
-		250 은 300에 가까운 것으로 한다.
+		250 은 200에 가까운 것으로 한다.
  */
 
 import java.util.*;
+
+import javax.swing.*;
 
 public class Ex05 {
 	public static void main(String[] args) {
@@ -28,10 +30,13 @@ public class Ex05 {
 		int b = (a % 100);
 	
 		// 판별
-		int c = (b - 50 >= 0) ? (((a / 100) * 100) + 100) : ((a / 100) * 100);
+		int c = (b - 50 > 0) ? (100 - b) : (b);
+		int e = b > 50 ? ((a / 100 + 1) * 100) : ((a / 100) * 100);
 		
+		String str = b > 50 ? ("더해줘야 한다.") : ("빼줘야 한다.");
 		// 출력
-		System.out.println(c);
+		// ((a / 100) * 100) + 100) : ((a / 100) * 100);
+		System.out.println(" 입력 받은 수는 " + a + "이고, 이 숫자는 " + e + "에 가까우므로 " + c + "만큼 " + str);
 //		System.out.println(a);		
 	}
 }
