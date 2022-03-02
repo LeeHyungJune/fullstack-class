@@ -62,5 +62,7 @@ public class Ex02 {
 		// 변환
 		
 		// 출력
+		// 자원 반환
+		sc.close();	
 	}
 }

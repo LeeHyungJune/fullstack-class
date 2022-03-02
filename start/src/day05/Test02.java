@@ -47,6 +47,8 @@ public class Test02 {
 		
 		// 결과 출력
 		System.out.println("입력한 정수는 " + num + "는 " + result + "입니다.");
+		// 자원 반환
+		sc.close();	
 	}
 
 }

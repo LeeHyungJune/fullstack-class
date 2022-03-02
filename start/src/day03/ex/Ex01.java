@@ -60,5 +60,7 @@ public class Ex01 {
 			
 			System.out.println("사각형의 넓이 : " + (width * length)); // 사각형 넓이 구하기
 			System.out.println("삼각형의 넓이 : " + (width * length / 2)); // 삼각형 넓이 구하기
+			// 자원 반환
+			sc.close();	
 	}
 }

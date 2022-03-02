@@ -40,5 +40,7 @@ public class Test01 {
 		
 		// 내용 출력
 		System.out.println("입력받은 정수 " + num + "은 " + soo + "입니다.");
+		// 자원 반환
+		sc.close();	
 	}
 }

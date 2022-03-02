@@ -1,4 +1,4 @@
-package day05.ex;
+package day05.ex.solv;
 
 /*
 	Ex04)
@@ -44,6 +44,7 @@ public class Ex04_solv {
 			}
 		// 입력 메세지 출력
 		System.out.print("사용량 : ");
+		int use = sc.nextInt();
 		// 입력 받아서 변수에 기억
 		String yd = "가정용";	
 		int money = 0;
@@ -79,5 +80,7 @@ public class Ex04_solv {
 					+ use + " 이고,\n총 전기요금은 " + money + "원 입니다.");
 			System.out.println("--------------------------------------------");
 	}
+		// 자원 반환
+		sc.close();	
 	}
 }

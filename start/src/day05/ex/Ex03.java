@@ -25,7 +25,10 @@ public class Ex03 {
 		int len = str.length();
 		for(int i = 0 ; i < len ; i++) {
 			System.out.println(str.charAt(i));
+			
 		}
+		// 자원 반환
+		sc.close();	
 	}
 
 }

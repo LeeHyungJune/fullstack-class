@@ -2,7 +2,7 @@ package day04;
 
 public class Test03 {
 	public static void main(String[] args) {
-		int no = 20;
+//		int no = 20;
 		
 		int result = 20 >> 2;	// 2의 2승으로 나누는 결과
 		int result1 = 20 << 3;	// 2의 3승을 곱한 값

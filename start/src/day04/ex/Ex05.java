@@ -14,7 +14,6 @@ package day04.ex;
 
 import java.util.*;
 
-import javax.swing.*;
 
 public class Ex05 {
 	public static void main(String[] args) {
@@ -38,5 +37,7 @@ public class Ex05 {
 		// ((a / 100) * 100) + 100) : ((a / 100) * 100);
 		System.out.println(" 입력 받은 수는 " + a + "이고, 이 숫자는 " + e + "에 가까우므로 " + c + "만큼 " + str);
 //		System.out.println(a);		
+		// 자원 반환
+		sc.close();	
 	}
 }

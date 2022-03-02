@@ -37,6 +37,8 @@ public class Test03 {
 					}
 				}
 		System.out.println("입력한 정수는 " + no + "는 " + result + "입니다.");
+		// 자원 반환
+		sc.close();	
 	}
 
 }

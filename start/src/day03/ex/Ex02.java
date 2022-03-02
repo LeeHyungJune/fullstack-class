@@ -64,5 +64,7 @@ public class Ex02 {
 		int intArround = (int)arround;
 		System.out.println(intArea);
 		System.out.println(intArround);
+		// 자원 반환
+		sc.close();	
 	}
 }

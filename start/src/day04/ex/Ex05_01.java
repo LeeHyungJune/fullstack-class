@@ -45,6 +45,8 @@ public class Ex05_01 {
 		}
 		// 결과 출력
 		System.out.println("입력 받은 수 " + a + "는 " + c + "에 가까우므로 " + num + str);
+		// 자원 반환
+		sc.close();	
 	}
 
 }

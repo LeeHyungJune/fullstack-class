@@ -50,6 +50,8 @@ public class Test05 {
 		
 		// 출력
 		System.out.println("입력한 나이 " + age + "는 " + sage + " 입니다.");
+		// 자원 반환
+		sc.close();	
 	}
 }
 

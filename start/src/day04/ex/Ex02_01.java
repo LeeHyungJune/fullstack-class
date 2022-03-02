@@ -61,6 +61,8 @@ public class Ex02_01 {
 		
 		// 출력
 		System.out.println("출력하는 문자 : " + result);
+		// 자원 반환
+		sc.close();	
 	}
 
 }

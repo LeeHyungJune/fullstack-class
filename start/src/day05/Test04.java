@@ -44,6 +44,8 @@ public class Test04 {
 	
 		// 결과 출력
 		System.out.println("입력 받은 나이 " + age + "살은 " + sage + " 입니다.");
+		// 자원 반환
+		sc.close();	
 		
 	}
 }

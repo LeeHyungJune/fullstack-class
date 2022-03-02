@@ -54,6 +54,8 @@ public class Ex04 {
 //		result = num1[1] + num1[2] * 50; 
 //		System.out.println(result);
 //		
+		// 자원 반환
+		sc.close();	
 		}
 	
 	}

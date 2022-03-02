@@ -8,21 +8,18 @@ package day05.ex;
 public class Ex10 {
 
 	public static void main(String[] args) {
-		
-		// 주사위 2개
+	
+	// 주사위 2개
 
-		
-		
-		while(true) {
-			int dice1 = (int)(Math.random() * 6) + 1;
-			int dice2 = (int)(Math.random() * 6) + 1;
-			for(dice1 = 1 ; ; dice1++) {
-			if((dice1 + dice2) == 6) {
+		int dice1 = (int)(Math.random() * 6) + 1;
+		int dice2 = (int)(Math.random() * 6) + 1;
+		for(dice1 = 1 ; dice1 <= 6 ; dice1++) {
+			for(dice2 = 1 ; dice2 <= 6 ; dice2++)
+				if((dice1 + dice2) == 6) {
 				System.out.println(" ( " + dice1 + " , " + dice2 + " ) ");
 				System.out.println("합이 6이 되었을 때 dice 1은 " + dice1 + "이고, dice 2는 " + dice2 + " 입니다.");
 				break;
-				}	
-			}
-		}	
-	}
+			}	
+		}
+	}	
 }

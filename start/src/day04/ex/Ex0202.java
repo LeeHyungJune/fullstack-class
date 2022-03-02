@@ -52,5 +52,7 @@ public class Ex0202 {
 								(ch >= 'a' & ch <= 'z') ? (char)(ch - ('a' - 'A')) : (ch));
 		// 출력
 		System.out.println("출력 문자 : " + result);
+		// 자원 반환
+		sc.close();	
 	}
 }

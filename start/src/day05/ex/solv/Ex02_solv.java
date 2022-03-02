@@ -1,4 +1,4 @@
-package day05.ex;
+package day05.ex.solv;
 
 public class Ex02_solv {
 	public static void main(String[] args) {

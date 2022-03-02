@@ -12,7 +12,7 @@ package day03.ex;
  		1분은 60초이다
  */
 
-import java.util.*;
+
 
 public class Ex04 {
 	public static void main(String[] args) {

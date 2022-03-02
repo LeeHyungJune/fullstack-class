@@ -18,7 +18,7 @@ package day03.ex;
  			
  */
 
-import java.util.*;
+
 
 public class Ex03 {
 	public static void main(String[] args) {

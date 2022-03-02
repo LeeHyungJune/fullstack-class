@@ -21,5 +21,7 @@ public class Test04 {
 		String result = (num % 2 == 0) ? ("짝수") : ("홀수");
 		// 결과 출력.
 		System.out.println("입력 받은 숫자 [" + num + "]은 '" + result + "' 입니다.");
+		// 자원 반환
+		sc.close();	
 	}
 }

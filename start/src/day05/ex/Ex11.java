@@ -13,12 +13,12 @@ public class Ex11 {
 
 	public static void main(String[] args) {
 		for(int x = 0 ; x <= 10 ; x++) {
-			for(int y = 0 ; y <= 10 ; y++) {
+		for(int y = 0 ; y <= 10 ; y++) {
 				if((2 * x) + (4 * y) == 10) {
 					System.out.println("2x + 4y = 10을 만족하는 x는 " + x + "이며, y는 " + y + " 입니다.");
 					break;
 				}
-			}
+		}
 		}
 		
 

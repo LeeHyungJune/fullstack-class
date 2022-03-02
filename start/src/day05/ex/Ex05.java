@@ -57,5 +57,7 @@ public class Ex05 {
 		} else {
 			System.out.println("잘못된 접근입니다");
 		}
+		// 자원 반환
+		sc.close();	
 	}
 }

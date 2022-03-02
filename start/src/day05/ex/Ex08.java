@@ -8,11 +8,29 @@ package day05.ex;
 	문자열로 입력받아서 문자로 변환후 처리하세요.
 */
 
+import java.util.*;
+
 public class Ex08 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//할일
+		// 입력도구
+		Scanner sc = new Scanner(System.in);
+		// 메세지 출력
+		System.out.print("문자열 입력 : ");
+		// 문자 기억
+		String str = sc.nextLine();
+		
+		int sum = 0;
 
+		// 문자 변환
+		for(int i = 0 ; i < 99999 ; i++) {
+			int no = str.charAt(i);
+			
+		}
+		
+		// 합
+		sc.close();
 	}
 
 }

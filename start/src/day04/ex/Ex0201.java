@@ -30,5 +30,7 @@ public class Ex0201 {
 						ch > 'Z' & ch < 'a') ? ("특수문자") : ((ch >= 'a' & ch <= 'z') ? ("소문자") : ("특수문자"));
 		// 출력
 		System.out.println("결과는 " + result);
+		// 자원 반환
+		sc.close();	
 	}
 }

@@ -1,4 +1,4 @@
-package day05.ex;
+package day05.ex.solv;
 
 /*
 	Ex05)
