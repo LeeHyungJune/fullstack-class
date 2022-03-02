@@ -31,6 +31,7 @@ public class Ex14 {
 		int r = 0;
 		int rr = 0;
 		int result = r;
+		int resultr = rr;
 		
 		for(int a = 1 ; a < 10 ; a++) {
 			for(int b = 1 ; b < 10 ; b++) {
@@ -38,8 +39,11 @@ public class Ex14 {
 					for(int d = 1 ; d < 10 ; d++) {
 						if(a == d + 2 && b != c && a != b && a != c && d != b && d != c && b >= c) {
 							r = (1000 * a) + (100 * b) + (10 * c) + d;
-							rr = (100 * d) + (100 * c) + (10 * c) + a;
+							rr = (1000 * d) + (100 * c) + (10 * b) + a;
 							if(r + rr == 16456) {
+								System.out.println(r);
+								result = r;
+								resultr = rr;
 								break;
 							}
 						}
@@ -47,7 +51,8 @@ public class Ex14 {
 				}
 			}
 		}
-		System.out.print(r);
+		System.out.println(result);
+		System.out.println(resultr);
 	}
 }
 //if(a != b & a != c & a != d & b != c & b != d & c != d) {
