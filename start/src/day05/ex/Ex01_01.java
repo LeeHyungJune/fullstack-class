@@ -10,8 +10,16 @@ package day05.ex;
 public class Ex01_01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		int num = 0;
+		
+		for(int i = 1; true ; i++) {
+			num = num + (i + 1);
+			if(num > 5000) {
+				break;
+			}
+		}
+		System.out.println("처음 합이 5000을 넘어가는 순간의 num 값은 " + num +"입니다.");
 	}
 
 }

@@ -9,16 +9,20 @@ package day05.ex;
 public class Ex09 {
 
 	public static void main(String[] args) {
+		
 		int num = 0;
-		for(int i = 1 ; num < 100 ; i++) {
+		int i = 0;
+		for(i = 1 ; ; i++) {
 			if(i % 2 == 0) {
 				num -= i;
 			} else {
 				num += i;
 			}
-			System.out.println("100까지 넘어가는데 i 값은 " + i +"이고, 결과는 " + num);
+			if(num > 100) {
+				break;
+			}
+			
 		}
-		
+		System.out.println("100까지 넘어가는데 i 값은 " + i +"이고, 결과는 " + num);
 	}
-
 }

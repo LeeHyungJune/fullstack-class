@@ -31,6 +31,7 @@ public class Ex06 {
 		// 전환
 		int user = sc.nextInt();
 		// 판별
+		
 		if(computer == user) {
 			System.out.println("정답입니다!");
 		} else if(computer > user) {

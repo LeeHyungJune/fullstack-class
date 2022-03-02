@@ -14,27 +14,41 @@ public class Ex14 {
 
 	public static void main(String[] args) {
 		
+		int result = 0;
 		
-		for(int a > 0 ; a < 10 ; a++) {
-		for(int b > 0 ; b < 10 ; b++) {
-		for(int c > 0 ; c < 10 ; c++) {
-		for(int d > 0 ; d < 10 ; d++) {
+		for(int a = 0 ; a < 10 ; a++) {
+		for(int b = 0 ; b < 10 ; b++) {
+		for(int c = 0 ; c < 10 ; c++) {
+		for(int d = 0 ; d < 10 ; d++) {
 			if(a != b & a != c & a != d & b != c & b != d & c != d) {
 				if(a == d + 2) {
 					if(b > c) {
-						if()
-				} else {
-					System.out.println("조건이 맞지 않습니다.");
-				}
-				} else {
-					System.out.println("조건이 맞지 않습니다.");
-			} else {
-				System.out.println("조건이 맞지 않습니다.");
-			}
-			int num = (1000 * a) + (100 * b) + (10 * c) + d; } 
+						if((a) + (10 * b) + (100 * c) + (1000 * d) + result == 16456) {
+							result = (1000 * a) + (100 * b) + (10 * c) + d;
+							break;
+						} 
+					} 
+				} 
+			} 
+			System.out.println(result);
 		}
 		}
 		}
 		}
 	}
 }
+
+//if(a != b & a != c & a != d & b != c & b != d & c != d) {
+//if(a == d + 2) {
+//	if(b > c) {
+//		if((a) + (10 * b) + (100 * c) + (1000 * d) == 16456) {
+//			int result = (1000 * a) + (100 * b) + (10 * c) + d;
+//		}
+//} else {
+//	System.out.println("조건이 맞지 않습니다.");
+//	} else {
+//	System.out.println("조건이 맞지 않습니다.");
+//		} else {
+//System.out.println("조건이 맞지 않습니다.");
+//}
+//int num = (1000 * a) + (100 * b) + (10 * c) + d; } 

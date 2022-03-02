@@ -10,8 +10,8 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 		
-		for(int i = (int)'A' ; i < ('A' + 10) ; i++) {
-			System.out.println((char)(i));
+		for(int i = 'A' ; i < ('A' + 10) ; i++) {
+			System.out.print(((char)i) + " ");
 		}
 
 	}

@@ -10,8 +10,16 @@ Ex02_01 ]
 public class Ex02_01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int a = (int)(Math.random() * (10 - 3 + 1) + 1);
+		
+		int len = length(a);
+		
+		for(int i = 0 ; i < len ; i++) {
+			char ch = (char)(Math.random() * ('z' - 'a' + 1) + 'a');
+			System.out.println(ch);
+		}
+//		System.out.println("랜덤한 정수의 길이는 " + a + "이며, 그 길이로 하는 영어 단어는 " + "b" + "입니다.");
 	}
+	
 
 }
