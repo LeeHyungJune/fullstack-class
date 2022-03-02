@@ -16,11 +16,28 @@ package day06.ex;
  			
  */
 
+import java.util.*;
+
 public class Ex01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("입력 받은 정수 : ");
+		
+		int num = sc.nextInt();
+		
+		int a = num;
+		String msg = "소수";
+		for(int i = 2 ; i < a ; i++) {
+			if(num % i == 0) {
+				a = i;
+				msg = "소수가 아닌수";
+				break;
+			}
+		}
+		System.out.println(num + " 은 " + a + "가 있기 때문에 " + msg + " 입니다.");
+		
 	}
 
 }
