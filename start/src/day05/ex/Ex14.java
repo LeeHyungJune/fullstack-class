@@ -31,7 +31,6 @@ public class Ex14 {
 		int r = 0;
 		int rr = 0;
 		int result = r;
-		int resultr = rr;
 		
 		for(int a = 1 ; a < 10 ; a++) {
 			for(int b = 1 ; b < 10 ; b++) {
@@ -43,7 +42,6 @@ public class Ex14 {
 							if(r + rr == 16456) {
 								System.out.println(r);
 								result = r;
-								resultr = rr;
 								break;
 							}
 						}
