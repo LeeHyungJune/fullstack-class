@@ -15,14 +15,17 @@ public class Ex07 {
 		System.out.print("입력한 5자리의 숫자 : ");
 		
 		int a = sc.nextInt();
+		int sum = 0;
+		int tmp = a;
 		
-		for(int i = 0 ; true ; i++) {
-			if(i % 10 == 0) {
-				
-			}
+		for(int i = 0 ; i < 5 ; i++) {
+			sum += tmp % 10;
+			tmp = tmp / 10;
+			
 			// 자원 반환
 			sc.close();	
 		}
+		System.out.println(sum);
 	}
 }
 ////입력도구

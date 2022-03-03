@@ -14,8 +14,28 @@ package day06.ex;
 public class Ex02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		int i = 0;
+		double num = 0;
+		double no = 0;
+		int min = 0;
+		int sec = 0;
+		int hour = 0;
+		
+		for(i = 0 ; ; i++) { 
+			num += 0.54;
+			no = (double)(7564 - 1.07 * i);
+			if(num >= no + 1) {
+				hour = i / 3600;
+				min = i / 60 % 60;
+				sec = i % 60;
+				break;
+			}
+		}
+		
+		System.out.println(hour + "시간, " + min + "분 , " + sec + "초");
+		
 	}
 
 }
+// 2,536.92,  5,026.86

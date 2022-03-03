@@ -52,7 +52,6 @@ public class Ex14 {
 			}
 		}
 		System.out.println(result);
-		System.out.println(resultr);
 	}
 }
 //if(a != b & a != c & a != d & b != c & b != d & c != d) {

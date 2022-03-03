@@ -36,7 +36,8 @@ public class Ex01 {
 				break;
 			}
 		}
-		System.out.println(num + " 은 " + a + "가 있기 때문에 " + msg + " 입니다.");
+		System.out.println(num + " 은 " + msg + " 입니다.");
+		sc.close();
 		
 	}
 
