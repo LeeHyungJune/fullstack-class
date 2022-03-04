@@ -11,8 +11,16 @@ package day07.ex;
 public class Ex03 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// 원의 반지름 기억
+		int[] a = new int[5];
+		
+		for(int i = 0; i < a.length ; i++) {
+			int no = (int)(Math.random() * (10 - 1 + 1) + 1);
+			a[i] = no;
+			double b = (double)(a[i] * a[i] * 3.14);
+			System.out.print(b + " , ");
+		}
+		
 	}
 
 }

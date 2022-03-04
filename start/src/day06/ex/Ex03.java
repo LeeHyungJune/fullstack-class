@@ -55,9 +55,18 @@ public class Ex03 {
 			for(int j = 1 ; j < 6 ; j++) {
 			int a = i;
 			int b = (j - (j-1));
-			System.out.println(a + b);
+			System.out.print(a+" ");
 		}
+			System.out.println();
 		}	
+		
+		
+		int[][] a = {{1}, {2, 3}, {4, 5, 6}, {7, 8, 9, 10}, {11, 12, 13, 14, 15}};
+		for(int i = 0 ; i < a.length ; i++) {
+			for(int n : a[i]) {
+				System.out.print(n + ", ");
+			}
+			System.out.println();
+		}
 	}
-
 }

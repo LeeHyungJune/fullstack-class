@@ -25,7 +25,7 @@ public class Test08 {
 			}
 			num[i] = no;
 		}
-		int min = num[0];
+
 		System.out.println(Arrays.toString(num));
 		// 정렬한다
 		for(int i = 0 ; i < num.length - 1; i++) {
