@@ -28,8 +28,19 @@ public class Ex04 {
 		blackpink[3] = "지수";
 		blackpink[4] = "둘리";
 		
-		
-
+		int[] subj = new int[5];
+		int result = 0;
+		int avg = 0;
+		for(int i = 0; i < subj.length ; i++) {
+			int no = (int)(Math.random() * (100 - 80 + 1) + 80);
+			subj[i] = no;
+			result += subj[i];
+			avg = result / subj.length;
+			System.out.println(blackpink[i] + " : " + subj[i]);
+		}
+		System.out.println("-------------");
+		System.out.println("총점 : " + result);
+		System.out.println("평균 : " + avg);
 	}
 
 }

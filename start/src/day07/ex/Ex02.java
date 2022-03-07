@@ -26,10 +26,10 @@ public class Ex02 {
 		int namuji = 0;
 		int a = 0;
 		for(int i = 0; i < coin.length ; i++) {
-			result = 79456 / coin[i];
+			result = namuji / coin[i];
 			a = 79456 / coin[i] * coin[i];
 			namuji = 79456 - a;
-			System.out.println(a);
+			System.out.println(result);
 		}
 	}
 

@@ -20,28 +20,30 @@ import java.util.Arrays;
 public class Ex01 {
 
 	public static void main(String[] args) {
-		int[] numCount = new int[10];
+		int num[] = new int[10];
+		int num1[] = new int[10];
 		
-		for(int i = 0 ; i < numCount.length ; i++) {
-			numCount[i] = 'A' + i;
-			System.out.println((char)(numCount[i]));
+		for(int i = 0 ; i < num.length; i++) {
+			num[i] = 'A' + i;
 		}
-		int count = 0;
 		for(int i = 0 ; i < 100 ; i++) {
-			int no = (int)(Math.random() * ('J' - 'A' + 1) + 'A');
-			
-			if(numCount[i] == no) {
-				
-			}
+			char ch = (char)(Math.random() * ('J' - 'A' + 1) + 'A');
+			int idx = ch - 'A';
+			int oldcount = num1[idx];
+			int newcount = oldcount + 1;
+			num1[ch - 'A'] = newcount;
 		}
-		for(int i = 0 ; i < numCount.length ; i++) {
-			count = numCount[i];
-			System.out.print(i + " : ");
-			for(int j = 0 ; j < count ; j++) {
+		for(int i = 0 ; i < num1.length ; i++) {
+			int arr = num[i];
+			char ch = (char) arr ; // 문자의 아스키 코드값을 꺼내서 강제 형변환
+			int count = arr; // 카운트 수
+			
+			// 타이틀 출력
+			System.out.print(ch + " [ " + count + " ] : ");
+			for(int j = 0 ;  j < count ; j++) {
 				System.out.print("*");
 			}
-			
-		}
+			System.out.println();
 	}
-
+	}
 }
