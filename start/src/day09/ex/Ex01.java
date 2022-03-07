@@ -86,8 +86,8 @@ public class Ex01 {
 		
 		return result;
 	}
-	public void toPrint(String[] arr) {
-		
-		System.out.println(sik[0] + " " + sik[1] + " " + sik[2] + "의 연산 결과는 " + result + " 입니다.");
-	}
+//	public void toPrint(String[] arr) {
+//		
+//		System.out.println(sik[0] + " " + sik[1] + " " + sik[2] + "의 연산 결과는 " + result + " 입니다.");
+//	}
 }
