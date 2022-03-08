@@ -75,7 +75,7 @@ public class Ex03 {
 			for(int j = 1 ; j < 6 ; j++) {
 			int a = i + 1;
 			int b = (j + i);
-			System.out.print(b+"\t");
+			System.out.print(b+" ");
 		}
 			System.out.println();
 		}
@@ -93,11 +93,21 @@ public class Ex03 {
 		System.out.println();
 		
 		System.out.println();
-		for(int i = 1 ; i < 5 ; i++) {
-			for(int j = 1 ; j < 6 ; j++) {
+		for(int i = 0 ; i < 6 ; i++) {
+			for(int j = 0 ; j < i ; j++) {	// 5번
 			int a = i + 1;
-			int b = (j - (j - i));
-			System.out.print(b+"\t");
+			int b = (j+1);
+			System.out.print(b+" ");
+		}
+			System.out.println();
+		}
+		
+		System.out.println();
+		for(int i = 1 ; i < 6 ; i++) {
+			for(int j = 0 ; j < i ; j++) {
+			int a = i + 1;
+			int b = (j + (i + 1) );
+			System.out.print(b+" ");
 		}
 			System.out.println();
 		}
