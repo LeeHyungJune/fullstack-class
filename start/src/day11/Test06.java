@@ -11,7 +11,10 @@ package day11;
  */
 
 public class Test06 {
+	int n = 10;
+	
 	public Test06() {
+		
 		Moyang[] mo = new Moyang[10];
 		for(int i = 0 ; i < 10 ; i++) {
 			// 도형 결정 정수 발생
@@ -34,7 +37,9 @@ public class Test06 {
 		}
 	}
 	public static void main(String[] args) {
-		new Test06();
+		Test06 t6 = new Test06();
+		int num = t6.n;
+		
 	}
 
 }

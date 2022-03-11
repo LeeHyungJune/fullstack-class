@@ -25,8 +25,12 @@ public class Circle extends Moyang {
 	public void setArea(double area) {
 		this.area = area;
 	}
+
 	public void setArea() {
 		area = rad * rad * 3.14;
+	}
+	public double getArround() {
+		return arround;
 	}
 	public void setArround(double arround) {
 		this.arround = arround;

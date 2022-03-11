@@ -18,6 +18,7 @@ public class Test07 {
 
 }
 
+
 class Grand01 {
 	public Grand01() {
 		System.out.println("#  Grand01 생성자");
