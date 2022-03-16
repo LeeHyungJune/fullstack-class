@@ -31,13 +31,6 @@ package day06.ex;
 *****
 
 
-
-
-
-
-
-
-
  */
 
 public class Ex04 {
