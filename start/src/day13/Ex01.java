@@ -41,7 +41,7 @@ public class Ex01 {
 	}
 	
 	public void toPrint() {
-		System.out.println(Arrays.toString(strings));
+		
 	}
 	
 	public static void main(String[] args) {
