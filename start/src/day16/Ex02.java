@@ -127,6 +127,10 @@ public class Ex02 {
 //		getStud("E");
 //		System.out.println("*********************");
 		
+		for(int i = 0 ; i < 5; i++) {
+			getStud(std.get(i));
+		}
+		
 		for(int i = 0 ; i < 5 ; i++) {
 			System.out.println(std.get(i) + " 의 성적");
 			System.out.println();
