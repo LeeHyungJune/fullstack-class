@@ -26,7 +26,9 @@ public class Test04 {
 			// 출력
 			System.out.println("전화번호 : " + hp);
 		}
-		
+		/*
+		 	asdfhg거ㅏ농하!@#$% 중 찾는 거. 내가 기준에 맞춘 것을 찾는 것.
+		 */
 		
 //		boolean bool = mat.matches(); 
 	}
